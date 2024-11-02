@@ -3,7 +3,7 @@ import db from "./config/db";
 import userRoutes from "./routes/userRoutes";
 import medicalRoutes from "./routes/medical.aid.routes";
 
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 3000;
 
 const app = express();
 app.use(express.json());
